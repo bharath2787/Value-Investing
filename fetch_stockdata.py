@@ -1,0 +1,1 @@
+import finvizprint(dir(finviz))#get stock list filters = ['NASDAQ' ,'S&P 500', 'Financial']stocklist = finviz.Screener(filters=filters, order='price')# Pull Apple data apple = finviz.get_stock('AAPL')type(apple)finviz.get_insider('АAPL')finviz.get_news('AAPL')finviz.get_analyst_price_targets('AAPL')
